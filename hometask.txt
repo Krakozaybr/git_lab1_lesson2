@@ -1,0 +1,43 @@
+1) Они отличаются последовательностью коммитов и merge:
+- demo
+1. init
+2. heat added
+3. boots
+4. Merge branch 'boots' into release
+5. README added
+6. dots
+7. Merge branch 'buttons' into demo
+
+- master
+1. init
+2. heat added
+3. boots
+4. README added
+5. dots
+6. fix readme
+7. Merge branch 'boots' into boots_buttons
+8. Merge branch 'buttons' into boots_buttons
+
+2) В разных ветках коммиты различаются:
+- master:
+1. init
+2. README added
+3. fix readme
+- boots:
+1. init
+2. boots
+- buttons
+1. init
+2. README added
+3. dots
+- demo
+1. init
+2. heat added
+3. boots
+4. Merge branch 'boots' into release
+5. README added
+6. dots
+7. Merge branch 'buttons' into demo
+- hat
+1. init
+2. heat added
